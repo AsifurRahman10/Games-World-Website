@@ -47,6 +47,20 @@
     .header-banner-text li {
         font-size: 1rem;
     } 
+    .banner-2-container{
+        flex-direction: column;
+    }
+    .banner-2-img{
+        width: 100%;
+    }
+    .banner-2-text{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-2-span{
+        font-size: 1.3rem;
+    }
 }
 
 
