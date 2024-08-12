@@ -1,0 +1,52 @@
+@media screen and (max-width:475px) {
+    .nav-bar, .nav-list ul{
+        flex-direction: column;
+    }
+    .nav-logo img{
+        width: 20%;
+        height: auto;
+    }
+    .nav-logo{
+        justify-content: center;
+    }
+    .nav-bar {
+        gap: 30px;
+    }
+    .nav-list ul{
+        gap: 30px;
+    }
+    .header-banner-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .header-banner{
+        background-image: none;
+    }
+    .header-banner-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .header-banner-text{
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .header-banner-text h2{
+        font-size: 2rem;
+    }
+    .header-banner-text h1{
+        font-size: 4rem;
+    }
+    .header-banner-text li {
+        font-size: 1rem;
+    } 
+}
+
+
