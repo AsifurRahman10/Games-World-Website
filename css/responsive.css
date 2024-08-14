@@ -61,6 +61,9 @@
     .banner-2-span{
         font-size: 1.3rem;
     }
+    .funny-videos{
+        margin: 100px auto 50px auto;
+    }
     .funny-video-card{
         grid-template-columns: 1fr;
         gap: 20px;
@@ -72,7 +75,7 @@
         flex-direction: column;
         gap: 20px;
         width: 80%;
-        margin: 0 auto 50px auto;
+        margin: 0 auto 70px auto;
     }
     .play-text{
         width: 100%;
@@ -96,6 +99,32 @@
         margin-top: 50px;
         width: 100%;
         font-size: 0.8rem;
+    }
+    .online-game{
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin: 0 auto 70px auto;
+    }
+    .online-game-image{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .online-game-text{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .online-game-text span{
+        font-size: 1.5rem
+    }
+    .online-game-text h1{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    .online-game-text p{
+        color: rgba(83, 76, 100, 1);
+        font-size: 0.8rem;
+        width: 100%;
     }
 }
 

@@ -166,7 +166,7 @@ body{
 .funny-videos{
     width: 80%;
     text-align: center;
-    margin: 100px auto;
+    margin: 70px auto;
 }
 .funny-videos h1{
     font-size: 2rem;
@@ -249,5 +249,45 @@ body{
     bottom: -10%;
     left: -18%;
     object-fit: cover;
+}
+/* online games style */
+.online-game{
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+.online-game-image{
+    position: relative;
+    width: 40%;
+}
+.online-game-image img{
+    width: 100%;
+}
+.online-game-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.online-game-image .ply-3{
+    width: 40%;  
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+}
+.online-game-text span{
+    color: rgba(135, 88, 241, 1);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.online-game-text h1{
+    font-size: 2rem;
+    width: 60%;
+}
+.online-game-text p{
+    color: rgba(83, 76, 100, 1);
+    font-size: 1.1rem;
+    width: 80%;
 }
 
