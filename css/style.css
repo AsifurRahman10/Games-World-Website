@@ -19,6 +19,10 @@ body{
 .flex{
     display: flex;
 }
+.text{
+    font-size: 1rem;
+    color: rgba(83, 76, 100, 1);
+}
 .nav-bar{
     justify-content: space-between;
     width: 80%;
@@ -159,3 +163,91 @@ body{
 .extra{
     font-weight: 500;
 }
+.funny-videos{
+    width: 80%;
+    text-align: center;
+    margin: 100px auto;
+}
+.funny-videos h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.funny-video-card{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    width: 90%;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.effect{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 2rem;
+    color: white
+}
+.effect p{
+    color: rgba(255, 66, 165, 1);
+}
+.card:hover .effect{
+    display: block;
+}
+.card:hover img{
+    filter: brightness(50%);
+}
+
+/* play section */
+.play-banner{
+    width: 80%;
+    margin: 0px auto 150px auto;
+    justify-content: space-between;
+}
+.play-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+}
+.play-text h1{
+    font-size: 3.5rem;
+}
+.play-text p{
+    width: 70%;
+    margin-top: 10px;
+    color: rgba(83, 76, 100, 1);
+    font-size: 1.2rem;
+    
+}
+.play-text span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(249, 72, 178, 1);
+}
+.play-image{
+    width: 40%;
+    position: relative;
+}
+.play-image img{
+    width: 100%;
+}
+.play-image .ply-2{
+    width: 40%;
+    position: absolute;
+    bottom: -10%;
+    left: -18%;
+    object-fit: cover;
+}
+

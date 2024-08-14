@@ -61,6 +61,42 @@
     .banner-2-span{
         font-size: 1.3rem;
     }
+    .funny-video-card{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+    .play-banner{
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+    .play-text{
+        width: 100%;
+        text-align: center; 
+        align-items: center;
+    }
+    .play-image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .play-text span{
+        font-size: 2rem;
+    }
+    .play-text h1{
+        font-size: 2.2rem;
+    }
+    .play-text span::after{
+        content: "Instantly,";
+    }
+    .play-text p{
+        margin-top: 50px;
+        width: 100%;
+        font-size: 0.8rem;
+    }
 }
 
 
