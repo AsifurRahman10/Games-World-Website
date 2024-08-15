@@ -290,4 +290,84 @@ body{
     font-size: 1.1rem;
     width: 80%;
 }
+/* careers section style */
+.careers{
+    background-image: linear-gradient(to right,rgba(255, 66, 165, 0.6), rgba(255, 66, 165, 0.5)),url("../images/Group\ 14.png") ;
+    background-repeat: no-repeat;
+}
+.careers-container{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.careers-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.careers-text h1{
+    font-size: 2rem;
+    color: white;
+}
+.careers-text li{
+    font-weight: 500;
+    color: white;
+}
+.careers-text ul{
+    list-style: none;
+    color: white;
+}
+.row{
+    justify-content: space-between;
+}
+.col-2{
+    text-align: end;
+}
+.btn-super{
+    width: 40%;
+    border-radius: 16px;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 66, 165, 1);
+    border: none;
+    font-weight: 600;
+}
+.btn-super:hover{
+    border: 3px solid rgb(137, 58, 101);
+}
+
+.careers-image{
+    width: 40%;
+} 
+.careers-image img{
+    width: 100%;
+}
+/* game-type section starts */
+.game-type{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    flex-direction: column;
+    gap: 20px;
+}
+.first-row{
+    justify-content: space-between;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sp-border{
+    border: 2px solid #F948B2;
+    border-radius: 50px;
+    padding: 5px;
+}
+.second-row{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 
