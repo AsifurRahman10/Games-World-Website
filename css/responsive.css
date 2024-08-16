@@ -126,6 +126,77 @@
         font-size: 0.8rem;
         width: 100%;
     }
+    .careers-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .careers-text{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .careers-text p{
+        font-size: 0.7rem;
+        color: white;
+    }
+    .row{
+        margin-top: 10px;
+    }
+    .careers-image {
+        width: 100%;
+    }
+    .first-row{
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .second-row{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 10px;
+    }
+    .sp-border{
+        border: navajowhite;
+    }
+    .box {
+        max-width: 150px;
+    }
+    .box img{
+        width: 50px;
+    }
+    .box h4{
+        font-size: 0.5rem;
+    }
+    .footer-logo img{
+        width: 50px;
+        height: 30px;
+        font-size: 1.7rem;
+    }
+    .footer-logo  h1{
+        width: 50px;
+        height: 30px;
+        font-size: 1.7rem;
+    }
+    .footer-logo{
+        gap: 10px;
+    }
+    .footer-list{
+        width: 67%;
+    }
+    .footer-list ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer{
+        height: 500px;
+    }
+    .second ul{
+        justify-content: space-between;
+    }
+
 }
 
 
